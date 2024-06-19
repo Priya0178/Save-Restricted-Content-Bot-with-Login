@@ -12,8 +12,8 @@ from dotenv import load_dotenv
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 load_dotenv(override=True)
 
-API_ID = int(os.getenv("TG_API_ID", "5120"))
-API_HASH = os.getenv("TG_API_HASH", "1fda88a5d1de478bce198e")
+API_ID = int(os.getenv("TG_API_ID", "19397648"))
+API_HASH = os.getenv("TG_API_HASH", "ed2db4aa6ab5f67fde7b88b8f17e85d0")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6055215937:AAFXHPlvJxpMqlEsIKauVS71SlSRy8DT1GM")
 MONGODB_URL = os.getenv("MONGODB_URL", "mongodb+srv://priyajat427:ZYMHmGpmlMLefsYY@cluster0.yhehuxq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 BOT_USERNAME = None
